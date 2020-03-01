@@ -1,0 +1,25 @@
+#include<iostream.h>
+#include<conio.h>
+int main()
+{ int i;
+	
+	int size     ;
+	for ( i=0;i<=10;i++)
+{	cout<<"*" ; }
+
+cout<<"\n" ; 
+for(i=0;i<9;i++)
+{
+if(i==1)
+{
+	cout<<"*" ;
+	for (i=9;i>0;i--)
+	{cout<<" " ;}
+}
+ cout<<"*";
+}
+
+
+return 0;
+
+}
