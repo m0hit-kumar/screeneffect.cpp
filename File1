@@ -1,19 +1,16 @@
 #include<iostream.h>
-#include<conio.h>
-int main()
-{ int i;
-	
-	int size     ;
-	for ( i=0;i<=10;i++)
-{	cout<<"*" ; }
 
-cout<<"\n" ; 
-for(i=0;i<9;i++)
+int main()
+{ 
+int i=1;
+	
+	
+while(i!=2)
 {
 if(i==1)
 {
 	cout<<"*" ;
-	for (i=9;i>0;i--)
+	for (i=10;i>1;i--)
 	{cout<<" " ;}
 }
  cout<<"*";
